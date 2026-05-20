@@ -1,0 +1,14 @@
+{
+  "name": "login-otp-ttl",
+  "version": "1.0.0",
+  "description": "A simple script to manage login OTPs with TTL using Express and Redis.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1"
+  }
+}
