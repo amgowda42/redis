@@ -1,0 +1,14 @@
+{
+  "name": "user-profile-cache-json-vs-hash",
+  "version": "1.0.0",
+  "description": " A simple script to compare caching user profiles in Redis using JSON strings vs. Redis hashes.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "ioredis": "^5.4.1"
+  }
+}
